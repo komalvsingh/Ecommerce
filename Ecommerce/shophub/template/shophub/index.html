@@ -1,0 +1,28 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css.css">
+    <title>
+        FunProject - Page 1
+    </title>
+</head>
+<body>
+    <div class="gif">
+        <img src="https://usagif.com/wp-content/uploads/gif/panda-89.gif" alt="" class="gif">
+    </div>
+    <div class="msg"><pre>...Wanna Hangout with me <b>someday?</b>...</pre> Choose any option from below.... </div>
+    <button class="repel-button" onmousemove="repelCursor(event)" onclick="return false;">No Never!...</button>
+    <button class="yes" onclick="redirectToPage2()">  Yes!!!.......  </button>
+
+    <script src="jav.js"> </script>
+    <script>
+        function redirectToPage2() {
+            // Redirect to index2.html
+            window.location.href = 'index2.html';
+        }
+    </script>
+</body>
+</html>

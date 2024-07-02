@@ -1,0 +1,77 @@
+css.css
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    /* overflow: hidden; */
+    background-color:#ff91af;
+    
+  }
+
+  .repel-button {
+    padding: 10px 20px;
+    margin: auto;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    transition: transform 0.18s ease-out;
+    border-radius: 5rem;
+    font-weight: bold;
+    background-color:rgba(255, 255, 0, 0.678);
+    color: #532837;
+    right: 500px;
+    border: 2px solid black;
+    z-index: 10;
+  }
+
+  .repel-button:hover {
+    transform: scale(9);
+  }
+
+  .repelling {
+    pointer-events: none;
+  }
+  .yes{
+    margin: auto;
+    padding: 10px 20px;
+    margin: 250px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    transition: transform 0.18s ease-out;
+    border-radius: 5rem;
+    font-weight: bold;
+    background-color: rgba(228, 228, 0, 0.863);
+    color: #572738;
+    left: 240px;
+    border: 2px solid black;
+  }
+
+  .msg{
+    position: relative;
+    font-size: 40px;
+    z-index: 10;
+   margin: auto;
+   top: -200px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: white ;
+  }
+
+  .gif{
+    width: 100%;
+    /* height: 300px; */
+    position:absolute;
+    /* left: 150px; */
+    top: -50px;
+  }
+  

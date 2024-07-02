@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 5px;
+    top: 0;
+    
+    
+     
+}
+
+.navlist li{
+    list-style: none;
+    padding: 4px 8px;
+    display: inline-block;
+    position: relative;
+    flex: 1;
+   
+    margin-right: 50px;
+
+    }
+    .navlist li a{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-decoration: none;
+   
+    }
+    .title{
+        font-size: 30px;
+        color: #11100f ;
+        /* background-image: linear-gradient(to right, #0f0e0d, #b0abad); */
+        /* -webkit-background-clip: text; /* Clip text to the background */
+        /* color: transparent;  */ 
+        font-weight: bold;
+        font-family: 'IBM Plex Sans Condensed', sans-serif;
+        margin-left: 50px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        flex: 1;
+       
+    }
+
+    .navlist div{
+        margin-right: 10px;
+    }
+    .cart{
+        padding: 4px 4px;
+        margin-right: 20px;
+    }
+    .profile{
+        padding: 4px 4px;
+        margin-right: 20px;
+    }
+    .Search input{
+        flex: 1;
+         width:80mm ; 
+        height: 30px;
+        background-color:white;
+        border-radius: 5px;
+       padding: 15px;
+      padding-left: 15px;
+       border-color: gray;
+       
+       
+
+    }
+    #searchIcon{
+        padding: 2px 5px;
+        margin-right: 20px;
+
+    }
+.Search{
+    display: none;
+    margin-right: 50px;
+    position: relative;
+    
+}
+.navlist li a:hover{
+    text-decoration: dashed;
+    color: gray;
+}
+
+.container1{
+    height: 90vh;
+    background:linear-gradient(to right,#f7f014 ,#f9f9ab )  ;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-image: url(https://agentestudio.com/uploads/post/image/91/main_fashion-website-design-cover.jpg);
+box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+   
+   
+    
+}
+.container1 p{
+    font-family: DM Serif Display;
+     font-size: 90px; 
+}
+.container1 div{
+     padding-top: 150px;
+     padding-left: 90px;
+}
+.navlist li::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background:#f44336;
+    display: block;
+    margin: auto;
+    }
+    .sale{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .pro{
+        display: inline-block;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        margin-left: 30px;
+    }
+
+    .feature{
+        display: inline-block;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        flex-wrap: wrap;
+        margin-left: 30px;
+    }
+    .shop p{
+        margin-bottom: -7px;
+    }
+    .hovercart:hover{
+text-decoration: none;
+color: rgb(135, 241, 128);
+    }
+    .explore:hover{
+       text-decoration: none;
+       background: #f44336;
+       color: white;
+        
+    }
+    .dropdown-container {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+  
+      /* Styles for dropdown items */
+      .dropdown-item {
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        color: #333;
+      }
+  
+      /* Hover effect for dropdown items */
+      .dropdown-item:hover {
+        background-color: #ddd;
+      }
+      .pdetail{
+        display: flex;
+        margin-top: 50px;
+        padding: 50px 50px 50px 50px;
+        
+        
+    }
+    .detail{
+        flex: 1;
+    }
+    .spro{
+        flex: 1;
+        margin-left: 150px;
+    }

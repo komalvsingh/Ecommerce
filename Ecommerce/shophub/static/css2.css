@@ -1,0 +1,32 @@
+css2.css
+body{
+    background-color:rgb(247, 92, 21);
+}
+img{
+    width: 100%;
+}
+pre{
+    position: absolute;
+    font-size: 30px;
+    top: 50px;
+    left: 70px;
+}
+h3{
+    font-weight: bolder;
+    color: rgb(30, 30, 105);
+}
+
+h4{
+    font-weight: bold;
+    color: rgb(53, 1, 53);
+}
+pre{
+    color: white;
+}
+.msg{
+    position: absolute;
+    left: 1100px;
+    top: 400px;
+    font-size:30px;
+    color: rgb(0, 0, 0);
+}
